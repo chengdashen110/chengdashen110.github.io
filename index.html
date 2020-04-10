@@ -13,7 +13,11 @@ body {
   padding: 10px;
   background: #f1f1f1;
 }
- 
+ .block{
+  text-decoration: none;
+  color: black;
+
+ }
 /* 头部标题 */
 .header {
   padding: 20px;
@@ -51,7 +55,7 @@ body {
 /* Left column */
 .leftcolumn {   
   float: left;
-  width: 75%;
+  width: 100%;
 }
  
 /* 右侧栏 */
@@ -111,7 +115,7 @@ body {
 <body>
 
 <div class="header">
-  <h1>正版软件商城</h1><head>
+  <a href="https://www.os-o.cn" class="block"><h1>正版软件商城</h1></a><head>
 	<script>
 		window.onload = function(){
 			var span = document.getElementsByTagName('span')[0];
@@ -137,7 +141,7 @@ body {
 				var seconds = date.getSeconds();
 				seconds = seconds<10?'0'+seconds:seconds;
 				// 2019-07-23 09:40:30
-				return year+'-'+month+'-'+day;
+				return year+'-'+month+'-'+day+' '+hours+':'+minutes+':'+seconds;
 			}
 
 		}
@@ -145,7 +149,7 @@ body {
 </head>
 <body>
 	<div>
-		<span>将来放置时间</span>已更新售价
+		<span>将来放置时间</span>
 	</div>
 </body>
   <p>你可以接触到市面上几乎价格最低的正版软件<br>包括但不局限于Office/Windows</p>
@@ -156,47 +160,48 @@ body {
 <div class="row">
   <div class="leftcolumn">
     
-    <div class="card">
-      <a href="https://www.anfaka.com/s/orange"><h2>Office/Windows系列</h2></a>
-      
-      <h5></h5>
-      <div class="fakeimg" style="height:200px;">
-      	<a href="https://www.anfaka.com/s/orange">
-      		<img src="office3.png" width="974.4" height="160">
-      	</a>
-      	</div>
-      <p>For You</p>
-      <p>我们在一些渠道获取到正版软件，并且合法，合理的出售给受众人群，致力于国内的软件正版化事业，为国内的正版进程提供动力。当然，最重要的是，我们的售价合理，努力让每一个人可以接受</p>
-    </div>
-    <div class="card">
-      <h2>电脑系列</h2>
-      <h5>点击询价</h5>
-      <div class="fakeimg" style="height:200px;">图片</div>
-      <p>For You</p>
-      <p>我们拥有强大的货源系统，支持全国调配，联想/戴尔/华硕/华为，全国联保，就近发货，我们在京东的上游拿货。做到真正的没有中间商赚差价，纵然我华丽的辞藻，也不如您亲自体验一番！</p>
-    </div>
+    <a href="https://www.anfaka.com/s/orange" class="block">
+      <div class="card" style="background: #667788">
+        <h2>Office/Windows系列</h2>
+        <p>For You</p>
+        <p>我们在一些渠道获取到正版软件，并且合法，合理的出售给受众人群，致力于国内的软件正版化事业，为国内的正版进程提供动力。当然，最重要的是，我们的售价合理，努力让每一个人可以接受</p>
+      </div>
+    </a>
+    <a href="https://www.anfaka.com/s/orange" class="block">
+      <div class="card" style="background: #FF8040">
+        <h2>品牌电脑系列</h2>
+        <p>For You</p>
+        <p>我们拥有强大的货源系统，支持全国调配，联想/戴尔/华硕/华为，全国联保，就近发货，我们在京东的上游拿货。做到真正的没有中间商赚差价，纵然我华丽的辞藻，也不如您亲自体验一番！</p>
+      </div>
+    </a>
   </div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>考研书目</h2>
-      <div class="fakeimg" style="height:200px;">图片</div>
-      <p>For You</p>
-      <p>新冠肺炎肆虐，耽误了2021考研党学习的脚步，我们心急如焚。网购书目价格虚高，学子难以承受！老规矩，天猫，京东的上游拿货，直接发到您的手中。几乎囊括考研所有书目，为芊芊学子保驾护航！</p>
-    </div>
-    <div class="card">
-      <h3>致读者信————关于版权问题的非官方讨论以及为什么不要使用盗版的问题</h3>
-      <p>For Everyone</p>
-      <p></p>
-    </div>
-    <div class="card">
+  <div class="leftcolumn">
+  	<a href="https://www.anfaka.com/s/orange" class="block">
+      <div class="card" style="background: #C07AB8">
+        <h2>考研书目</h2>
+        <p>For You</p>
+        <p>新冠肺炎肆虐，耽误了2021考研党学习的脚步，我们心急如焚。网购书目价格虚高，学子难以承受！老规矩，天猫，京东的上游拿货，直接发到您的手中。几乎囊括考研所有书目，为芊芊学子保驾护航！</p>
+      </div>
+    </a>
+  </div>
+  <div class="leftcolumn">
+  	<a href="" class="block">
+  	  <div class="card" style="background: #0080FF">
+        <h3>致读者信————关于版权问题的非官方讨论以及为什么不要使用盗版的问题</h3>
+        <p>For Everyone</p>
+        <p></p>
+      </div>
+    </a>
+    <div class="card" style="background: #53FF53">
       <h3>关于我</h3>
       <p>一个有正义感的零零后，年终将至群雄逐鹿 风声鹤唳 是非颠倒 邪恶挡道 良知沉默 站长俺从今开始正义守护，至死方休。我将不戴宝冠，不争荣宠。 我将尽忠职守，生死于斯。 我是黑暗中的利剑，长城上的守卫，抵御寒冷的烈焰，破晓时分的...</p>
     </div>
   </div>
+  </div>
 </div>
 
 <div class="footer">
-  <h5>Copyright © 2009-2020 All Rights Reserved.正版软件商城</h5>
+  <h4>Copyright © 2009-2020 All Rights Reserved.正版软件商城</h4>
 </div>
 
 </body>
