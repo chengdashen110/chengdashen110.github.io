@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>正版软件商城(os-o.cn)</title>
-<link rel="stylesheet" type="text/css" href="https://os-o.cn/waifu.css"/>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://os-o.cn/loliPanel/waifu.css"/>
+    <script src="https://os-o.cn/loliPanel/jquery-3.2.1.min.js"></script>
 
 <style>
 * {
@@ -58,7 +58,7 @@ body {
 /* Left column */
 .leftcolumn {   
   float: left;
-  width: 75%;
+  width: 100%;
 }
  
 /* 右侧栏 */
@@ -193,7 +193,7 @@ body {
       </div>
     </a>
   </div>
-  <div class="rightcolumn">
+  <div class="leftcolumn">
     <a href="https://www.os-o.cn/forEveryone.txt" class="block">
       <div class="card" style="background: #339966">
         <h3>致读者信————关于版权问题的非官方讨论以及为什么不要使用盗版的问题</h3>
@@ -211,7 +211,27 @@ body {
 
 <div class="footer">
   <h4>Copyright © 2009-2020 All Rights Reserved.正版软件商城</h4>
+  <body>
+    <link rel="stylesheet" type="text/css" href="https://os-o.cn/loliPanel/waifu.css">
+    <div class="waifu" id="waifu">
+        <div class="waifu-tips" style="opacity: 1;"></div>
+        <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+        <div class="waifu-tool">
+            <span class="fui-home"></span>
+            <span class="fui-chat"></span>
+            <span class="fui-eye"></span>
+            <span class="fui-user"></span>
+            <span class="fui-photo"></span>
+            <span class="fui-info-circle"></span>
+            <span class="fui-cross"></span>
+        </div>
+    </div>
+    <script src="https://os-o.cn/loliPanel/live2d.js"></script>
+    <script src="https://os-o.cn/loliPanel/waifu-tips.js"></script>
+    <script type="text/javascript">initModel()</script>
+</body>
 </div>
 
 </body>
 </html>
+<link rel="stylesheet" type="text/css" href="https://os-o.cn/loliPanel/flat-ui.min.css"/>
