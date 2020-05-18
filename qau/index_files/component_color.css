@@ -1,0 +1,128 @@
+.headline{	display: block;
+	margin: 10px 0 25px 0;
+	border-bottom: 1px dotted #e4e9f0;}
+.headline h2, .headline h3, .headline h4{padding-bottom:5px;display:inline-block;border-bottom:2px solid #72c02c;}
+.breadcrumb li.active,
+.breadcrumb li a:hover {
+  color: #72c02c;
+  text-decoration: none;
+}
+.link12{background:#ff9e00;}
+.post-13 .con li.n1{height: 220px;border-top-color:#A40C22;}
+.post-13 .con li.n2{height: 220px;border-top-color:#D66F23;}
+.post-13 .con li.n3{height:220px;border-top-color:#A40C22;}
+.post-11 .con li.n2 .img-link{border-bottom:3px solid #01559D;}
+.post-11 .con  li.n3 .img-link{border-bottom:3px solid #d66f23;}
+#wp_news_w12 li.n1{border-top:3px solid #01559D;height:260px;}
+@media screen and  (max-width:600px){
+#wp_news_w12 li.n1{height:200px;}
+.post-13 .con li.n1{max-height: 220px;border-top-color:#A40C22;}
+.post-13 .con li.n1{max-height: 220px;border-top-color:#A40C22;}
+.post-13 .con li.n2{max-height: 220px;border-top-color:#D66F23;}
+}
+#wp_news_w12 li.n2{border-top:3px solid #D66F23;}
+#wp_news_w12 li.n3{border-top:3px solid #A40C22;}
+/*foot10开始 css*/
+#footer {background-color:#062042;}
+#footer .inner {color: #9ba6b3;}
+#footer .inner a{color: #9ba6b3;}
+.shares .share .zdy{color:#9ba6b3;}
+/*foot10结束 css*/
+
+/* channel67开始 */
+.top_lt .more.channel67 a{border-left:1px solid #b6b6b6;color:#967418;}
+/* channel75开始 */
+.channel175{background:#F3F3F3;}
+.channel175t{color:#336ECD;}
+.dateRight1{ display:block; color:#F2A245; }
+/*channel188*/
+.date188{background:#513F10;color:#fff;padding:5px 10px;margin-right:20px;}
+/*channel107*/
+#content107 {
+	overflow: hidden;
+padding-bottom: 10px;
+	border:1px solid #a1cefb;
+}
+
+.title107 {
+color: #FF0000;
+font-size: 14px;
+font-weight: bold;
+float: left;
+padding-left: 20px;
+height: 39px;
+line-height: 39px;
+}
+/*channel190*/
+
+.center_bt190 {
+	border-bottom:1px solid #3060CA;}
+/*channel108*/
+#content108 {
+	overflow: hidden;
+	border:1px solid #a1cefb;
+}
+/*channel109*/
+.content109 {
+	padding:2px;
+	border:1px solid #a1cefb;
+}
+/*channel119*/
+.n_hot {
+    color: #FEBC20!important;
+}
+#cardBtn1 li.tab119Btn1 {
+    border: 1px solid #e2e2e2;
+	   border-top: 2px solid #00f;
+    height: 38px;
+	padding: 0px 10px;
+}
+/*nav40*/
+.nav40{background:#0094de;color:#fff !important;}
+
+
+
+/*channel111*/
+.channel111title{font-weight: 600;color:#0A7C04;}
+
+/*channel124*/
+.branch_text .chn.color{color:#90680a;}
+.branch_title.color{
+	border-bottom:2px solid #90680a;
+}
+/*nav37*/
+.nav37head{background:#2398fb;height: 46px;}
+
+/*link21开始*/
+.link22{border-top:1px dotted #ccc;}
+.link22-padding a{color:#8e8a89;}
+/*link21结束*/
+
+.content_line{background:url(../img/comimg/cont_line.png) top center;height:5px;}
+
+#header{background:#A9A9A9;}
+
+#footer21{background-color:#2c3339;}
+#footer24{clear:both;border-top:8px solid #a1cefb;background:#F1F1F1;margin: 0px;}
+/*foot28*/
+.foot28 {
+	overflow: hidden;
+   padding:15px 0px;
+   margin: 0px auto;
+    border-top: 5px #00499d solid;
+    background: #ececec;
+    color: #666;
+}
+/*nav43*/
+.nav43{background:#ccc;}
+#header41 {
+    background: #338329;
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #9E9FA0!important;
+    border-color: #707071!important;
+}

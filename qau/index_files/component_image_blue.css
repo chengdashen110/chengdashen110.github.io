@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*弹出框开始*/
+  div.jbox .jbox-close,div.jbox .jbox-close-hover{background: url(../img/comimg/alertBtn.png) no-repeat 0 0 !important;}
+/*弹出框结束*/
+
+/*nav1开始*/
+#bs-example-navbar-collapse-1 a:hover{ background-image:url(../img/nav.jpg);font-size:14px;}	
+.nav1_img{background-image:url(../img/comimg/blue/nav.gif);}
+/*nav1结束*/
+
+/*nav3开始*/
+.nav3_img{background:url(../img/comimg/blue/nav3.jpg) repeat-x;}
+/*nav3结束*/
+
+/*nav7开始*/
+.nav7_img{background-image:url(../img/comimg/blue/nav7.gif);}
+/*nav7开始*/
+
+/*nav13开始*/
+#bs-example-navbar-collapse-1 a:hover{ background-image:url(../img/nav.jpg);font-size:14px;}	
+.nav13_bj_img{background-image:url(../img/comimg/blue/nav13bk.jpg);}
+/*nav13结束*/
+
+/*nav14开始*/
+#bs-example-navbar-collapse-1 a:hover{ background-image:url(../img/nav.jpg);font-size:14px;}	
+.nav13_bj_img{background-image:url(../img/comimg/blue/wlzxbj.jpg);}
+/*nav14结束*/
+
+/*nav21开始*/
+.main-menu .wp-menu .menu-item a.menu-link{background:url(../img/comimg/blue/navcut.png) no-repeat 0 50%}
+/*nav21开始*/
+
+/*nav23开始*/
+.wid1100.nav23{background:url(../img/comimg/blue/logo-bg1.jpg) right center no-repeat;}
+/*nav23结束*/
+
+/*nav26 开始*/
+#header26 .main-menu .wp-menu .menu-item a.menu-link{background:url(../img/comimg/blue/middleopen.gif) no-repeat 0 50%}
+/*nav26 结束*/
+
+/* nva17 */
+.header .topWrap {
+	background:url(../img/comimg/blue/topbluebanner.jpg);
+}
+
+/*foot1开始*/
+.foot3_img{background-image:url(../img/comimg/blue/footerbg.jpg);height:150px;}
+/*foot1开始*/
+
+/*footer2开始*/
+.footer_2{background-image:url(../img/comimg/blue/fotter.jpg);}
+.footer-main{color:#FFF;}
+/*footer2结束*/
+
+/*foot8开始*/
+.footer8{background: url(../img/comimg/blue/footer.jpg);
+background-position: top center;
+    width: 100%;
+}
+/*foot8开始*/
+
+/*footer9开始*/
+.footer_9{background:url(../img/comimg/blue/foot9.jpg) 100px top no-repeat #01559b}
+/*footer9开始*/
+
+/*foot12*/
+#footer12 .siteWidth { background:url(../img/comimg/blue/foot12.png) 0 0 no-repeat; }
+@media (max-width: 768px) {
+#footer12 .siteWidth {background:#024998 }
+#footer12 .a {
+background:url(../img/comimg/blue/foot12a.png) center left no-repeat;
+}
+#footer12 .b {
+background:url(../img/comimg/blue/foot12b.png) center left no-repeat;
+}
+#footer12 .c {
+background:url(../img/comimg/blue/foot12c.png) center left no-repeat;
+}
+}
+
+/*footer17开始*/
+.icon-wechat{background: url(../img/comimg/blue/icon60-wechat.png) center no-repeat;}
+.icon-sina{background: url(../img/comimg/blue/icon60-sina.png) center no-repeat;}
+.icon-app{background: url(../img/comimg/blue/icon60-app.png) center no-repeat;}
+.icon-ss{background: url(../img/comimg/blue/icon60-ss.png) center no-repeat;}
+/*footer17结束*/
+
+/*新闻页开始*/
+.news_info .view {background-image: url(../img/comimg/icon_arrow.gif);}
+.news_info .comment {background-image: url(../img/comimg/icon_comment.gif);}
+.list-groups-item a{ background:url(../img/icon_arrow02.gif) no-repeat left; display:block; padding-left:30px; margin-left:20px;}
+.digg .push_up, .json_digg .push_up{background:url(../img/comimg/arrow_up.gif) no-repeat left 2px;}
+.digg .trample, .json_digg .trample{background:url(../img/comimg/arrow_down.gif) no-repeat left 2px;}
+/*新闻页结束*/
+
+/*tpl9样式开始*/
+
+.post-wrap .list-group-item { display: block; position: relative;/* background:url(../img/comimg/dot.png) no-repeat 3px 14px; height: 24px;*/ }
+/*tpl9样式结束*/
+
+/*搜索开始*/
+.taglist ul li{width:32%; padding-left:1%; height:30px; line-height:30px; float:left; background:url(../img/news/blue-icon.gif) no-repeat 1px 10px; text-indent:10px;}
+.scform_form { background: url(../img/comimg/blue/searchbar.png) repeat-x 0 0; }
+.td_srchtxt { background: url(../img/comimg/blue/searchbar.png) no-repeat 0 -35px; }
+#tab-container ul.tabs li a.active{background:url(../img/comimg/blue/searchbar.png) no-repeat 50% 100%;}
+.td_srchbtn { background: url(../img/comimg/blue/searchbar.png) no-repeat 0 -70px; }
+/*搜索结束*/
+
+/*评论开始*/
+.LanMu01-2{ background-image:url(../img/comimg/title1-2.gif); height:30px;}
+.LanMu01-1{ background-image:url(../img/comimg/title1-1.gif); width:23px;height:30px; float:left;}
+.LanMu01-3{ background-image:url(../img/title1-3.gif); width:10px; float:right;}
+.LanMu01-6{ background-image:url(../img/comimg/title1-1.gif); width:23px;height:30px; float:left; }
+.LanMu01-8{ background-image:url(../img/comimg/title1-2.gif); height:30px;}
+.ding{width:52px; height:51px; background:url(../img/comimg/ding.gif) no-repeat center top; margin:5px; color:#217AB3; font-weight:bold; font-size:12px; line-height:23px; font-family: Georgia, "Times New Roman", Times, serif; cursor:pointer; float:left;}
+.cai{width:52px; height:51px; background:url(../img/comimg/cai.gif) no-repeat center top; margin:5px; color:#f60; font-weight:bold; font-size:12px; line-height:23px; font-family: Georgia, "Times New Roman", Times, serif; cursor:pointer; float:left;}
+/*评论结束*/
+
+
+/* channel185s开始 */
+.chan185s{background: url(../img/comimg/blue/gz_r7_c2.png) 20px 12px  no-repeat;}
+/* channel185s结束 */
+
+
+/* 问答开始 */
+
+/* 图片弹出 */
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+	background-image: url(../img/comimg/fancybox_sprite.png);
+}
+
+#fancybox-loading div {
+	background: url(../img/comimg/fancybox_loading.gif) center center no-repeat;
+}
+
+.fancybox-nav {
+	background: transparent url(../img/comimg/blank.gif); /* helps IE */
+}
+
+.fancybox-overlay {
+	background: url(../img/comimg/fancybox_overlay.png);
+}
+
+/*Retina graphics!*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	   only screen and (min--moz-device-pixel-ratio: 1.5),
+	   only screen and (min-device-pixel-ratio: 1.5){
+
+	#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+		background-image: url(../img/comimg/fancybox_sprite@2x.png);
+	}
+
+	#fancybox-loading div {
+		background-image: url(../img/comimg/fancybox_loading@2x.gif);
+	}
+}
+/* 问答结束 */
+
+/* 个人中心开始 */
+.nan_mu_bottom .current{background:url(../img/member/blue/h2.png) no-repeat;}
+/* 个人中心结束 */
+
+/* channel_tag1开始 */
+.blk .head, .blk .head-right, .blk .foot, .blk .foot-right{background:url(../img/comimg/blue/pop_up_bg.png);overflow:hidden;height:4px;}
+.t5 .blk .head, .t5 .blk .head-right, .t5 .blk .foot, .t5 .blk .foot-right{background:url(../img/comimg/blue/pop_up_bg2.png);}
+/* channel_tag1结束 */
+
+/*banner区数据轮换开始*/
+ul.slider-public li h2.title{font-size:16px;font-weight:100;padding:16px 0 10px 45px;border-bottom:1px solid #b9b9b9;color:#515151;background:url(../img/icon.png) left center no-repeat;}
+/*banner区数据轮换结束*/
+
+/*内页开始*/
+/*
+.list-groups{background-image:url(../img/comimg/blue/lm1_bg1.gif);}*/
+.cattile{height:30px;background:url('../img/title2-2.jpg');color:#FFF;font-weight:700;border-top:1px solid #2C8F19 }
+.cattile1{height:30px;background:url(../img/comimg/blue/lm1_top.gif);font-weight:700;}
+.cattile2{height:30px;background:url(../img/comimg/blue/lm3_top.gif);font-weight:700;border:1px solid rgba(25, 114, 17, 0.3);color:#fff}
+.cattile3{height:30px;background:url(../img/comimg/blue/channel160.png);font-weight:700;border:1px solid rgba(25, 114, 17, 0.3);color:#fff}
+.icon{background:url('../img/cat_hot_bg.png') }
+/*内页结束*/
+
+/* 友情链接3开始 */
+.wp-link .link-item a {background:url(../img/comimg/arrow-gt.png) no-repeat right 9px;}
+/* 友情链接3结束 */
+
+/* top_main开始 */
+.topmain_img{background-image:url(../img/comimg/blue/xian.jpg)}
+.topmain2_img{background-image:url(../img/comimg/lx1.png)}
+.topmain3_img{background-image:url(../img/comimg/hx1.png)}
+.topmain4_img{background-image:url(../img/comimg/vx1.png)}
+.topmain5_img{background-image:url(../img/comimg/lx2.png)}
+/* top_main结束 */
+
+/* top_main2、3开始 */
+.questionli {
+	BACKGROUND: url(../img/comimg/blue/head-mark.gif) no-repeat 0px 16px
+}
+
+/* top_main3 */
+.top_main3 UL.index_list LI {
+	BACKGROUND: url(../img/comimg/blue/head-mark.gif) no-repeat 0px center
+}
+/* top_main2、3结束 */
+
+/* top_main4开始 */
+.index_h1{
+	background-image:url(../img/comimg/index_h1.gif);
+	}
+/* top_main4结束 */
+
+/* top_main6开始 */
+.top_lt2 {
+	BACKGROUND: url(../img/comimg/blue/top_lt2_bg_33.png) no-repeat left bottom; 
+}
+/* top_main6结束 */
+
+/* top_main7开始 */
+.news_text LI {
+	 BACKGROUND: url(../img/comimg/dot_41.jpg) repeat-x 50% bottom;
+}
+/* top_main7结束 */
+
+/* channel29开始 */
+.topmain29_img{background-image:url(../img/comimg/blue/xian.jpg);padding-top:5px;margin-bottom:10px;}
+.index_list li{background: url(../img/comimg/blue/icon_arrow03.png) left no-repeat ;}
+/* channel29结束 */
+
+/* channel32开始 */
+.list_time {
+background: url(../img/comimg/blue/time-bg.jpg) no-repeat left 22px;
+}
+/* channel32结束 */
+/*channel57/84*/
+.icon57.icon-c{background: url(../img/comimg/blue/icon-c.png) center no-repeat;}
+.icon-more{background: url(../img/comimg/blue/icon-more.png) center no-repeat;}
+/*channel57/84*/
+
+/*channel58*/
+.bt-bg{ background:url(../img/comimg/blue/index-mc-bg.png) no-repeat 0 bottom;}
+
+/*channnel60*/
+.uparrow a{  background:url(../img/comimg/blue/jzbg-foot-down.png) no-repeat;}
+.uparrow a:hover{ background:url(../img/comimg/blue/jzbg-foot-downon.png) no-repeat;}
+.downarrow a{ background:url(../img/comimg/blue/jzbg-top-up.png) no-repeat;}
+.downarrow a:hover{background:url(../img/comimg/blue/jzbg-top-upon.png) no-repeat;}
+.jzbg3{background:url(../img/comimg/blue/index-mc-bg.png) no-repeat 0 36px;}
+.tzgg{ background:url(../img/comimg/blue/index-mc-bg.png) no-repeat right 30px;}
+.tzgg h2 .current{  background:url(../img/comimg/blue/index-mc-bg.png) no-repeat 8px 30px;}
+
+/*channel70*/
+.hovertab .n_tab1{background:url(../../assets/img/comimg/blue/bg_zhuanqu_over2.jpg) no-repeat;}
+.hovertab .n_tab3,.hovertab .n_tab4,.hovertab .n_tab2{background:url(../../assets/img/comimg/blue/bg_zhuanqu_over2.jpg) no-repeat;}
+
+/* channel78开始 */
+#tab li.fli,#tab2 li.fli2{background:url(../../assets/img/comimg/blue/TabonBj.gif) no-repeat bottom;}
+#tab,#tab2{background:url(../../assets/img/comimg/TabLine.gif) repeat-x bottom left;}
+/* channel78开始 */
+
+/* channel79开始 */
+#tab1{background:url(../../assets/img/comimg/TabLine.gif) repeat-x bottom left}
+#tab1 li.fli1{background:url(../../assets/img/comimg/blue/TabonBj.gif) no-repeat bottom}
+/* channel79开始 */
+
+/*channel80*/
+.column1_1T{  background:url(../../assets/img/comimg/blue/titlebg.jpg) no-repeat top left;}
+/*channel81*/
+.box_title{background:url(../../assets/img/comimg/blue/bg_new.jpg) no-repeat top left; }
+	
+/* channel91开始 */
+.slideGroup1 .parHd1 b{background:url(../img/comimg/blue/xwzx01.jpg) center no-repeat;}
+/* channel91结束 */
+
+/* channel95开始 */
+.date{background:url(../img/comimg/blue/date-1.jpg) no-repeat;}
+/* channel95结束 */
+
+/* channel151开始 */
+.channel151 dt{
+		 background:url(../../assets/img/comimg/blue/tit.png)  no-repeat;
+}
+/* channel151结束 */
+
+/* banner3开始 */
+#index_slide .next{BACKGROUND: url(../img/comimg/next.gif) no-repeat 0px 0px;}
+#index_slide .prev {BACKGROUND: url(../img/comimg/prev.gif) no-repeat 0px 0px;}
+/* banner3结束 */
+.searchMenu {
+border: 0;
+float: left;
+cursor: pointer;
+background-image: url(../img/comimg/blue/searchMenu.gif);
+width: 56px;
+height: 35px;
+}
+
+/*play3*/
+.box2_title{ background: url(../../assets/img/comimg/blue/bg_reight.jpg) top left;}
+/*link19*/
+.link19_title{height:32px;background:url(../../assets/img/comimg/blue/bg_link.jpg) no-repeat top left;}

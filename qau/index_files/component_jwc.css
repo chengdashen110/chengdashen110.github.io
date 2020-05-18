@@ -1,0 +1,79 @@
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.chl69b img {
+    width: 100%;
+    height: 70px;
+}
+.flexslider .slides a img {height: 260px!important;}
+.flexslider {height: 260px!important;}
+.channel215 {
+    margin-top:0px!important;
+}
+.navbar-form { padding:0px;margin-top: 20px;}
+.navbar-nav > li > a {
+    line-height: 30px!important;
+}
+.hdyw-pic img {
+    width: 375px;
+    height: 278px;
+}
+#TeXiao2{
+    position: relative;
+    overflow: hidden;
+    width: 375px;
+    height: 278px;
+    margin-top: -1px;
+	margin-left:0px
+}
+.nav>li>a {
+    padding: 12px;
+}
+#bs-example-navbar-collapse-1 a {
+    color: #fff;
+    font-size: 16px;
+}
+#bs-example-navbar-collapse-1 a:hover {
+    background-image: url(../img/nav.jpg);
+    font-size: 16px;
+}
+#bs-example-navbar-collapse-1 a:hover {
+    color: #4dc0fc;
+}
+.copy {
+    background-color: #494949;
+    color: #FFF;
+}
+.leftNav h3 {
+    background: #3c8ccb;
+}
+.leftNav {
+    border-left:12px solid #3c8ccb;
+}
+.chan252 {
+    background-color: #3c8ccb;
+}
+.link78 {
+      color: #3c8ccb;
+}
+.chan253 {
+    background-color: #3c8ccb;
+  }
+.dropdown {
+    padding: 0 3px;
+}
+#dm {
+ background: rgba(60, 140, 203, 0.7);
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    background-color: #256598;
+}
+.channel252 {
+    margin-bottom: 10px;
+}
+a.link88:link{border:1px solid #74a5cb; border-radius:3px; font-size:14px;height:36px; line-height:36px;text-align:center; display:block }
+a.link88:visited{border:1px solid #74a5cb; border-radius:3px; font-size:14px;height:36px; line-height:36px;text-align:center; display:block}
+a.link88:hover{border:1px solid #74a5cb; background-color:#74a5cb; border-radius:3px; font-size:14px;height:36px; line-height:36px;text-align:center; display:block;color:#fff}
